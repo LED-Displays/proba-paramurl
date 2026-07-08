@@ -188,27 +188,27 @@ td, th {
 }
 
 .w-icon-slider-right:before {
-  content: "î˜€";
+  content: "оЂ";
 }
 
 .w-icon-slider-left:before {
-  content: "î˜";
+  content: "оЃ";
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚";
+  content: "о‚";
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-  content: "î˜ƒ";
+  content: "оѓ";
 }
 
 .w-icon-file-upload-remove:before {
-  content: "î¤€";
+  content: "о¤Ђ";
 }
 
 .w-icon-file-upload-icon:before {
-  content: "î¤ƒ";
+  content: "о¤ѓ";
 }
 
 * {
@@ -3613,11 +3613,12 @@ figcaption {
   grid-template-areas: ". . ."
                        ". . .";
   margin-bottom: 120px;
+  display: none;
 }
 
 .new-section {
   opacity: .6;
-  display: none;
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
@@ -4265,7 +4266,7 @@ figcaption {
   grid-area: 2 / 1 / 3 / 2;
 }
 
-#w-node-ca1212d8-4247-8b87-bc90-543393b11905-c59737f5 {
+#consulting.w-node-ca1212d8-4247-8b87-bc90-543393b11905-c59737f5 {
   grid-area: 2 / 2 / 3 / 3;
 }
 
@@ -4350,7 +4351,7 @@ figcaption {
     grid-area: 2 / 2 / 3 / 3;
   }
 
-  #w-node-ca1212d8-4247-8b87-bc90-543393b11905-c59737f5 {
+  #consulting.w-node-ca1212d8-4247-8b87-bc90-543393b11905-c59737f5 {
     grid-area: 3 / 1 / 4 / 2;
   }
 
@@ -4396,7 +4397,7 @@ figcaption {
     grid-area: 4 / 1 / 5 / 2;
   }
 
-  #w-node-ca1212d8-4247-8b87-bc90-543393b11905-c59737f5 {
+  #consulting.w-node-ca1212d8-4247-8b87-bc90-543393b11905-c59737f5 {
     grid-area: 5 / 1 / 6 / 2;
   }
 }
